@@ -1,0 +1,40 @@
+.Head{
+    display: flex;
+    /* margin: 0.5rem 2rem; */
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(32, 241, 84);
+}
+.H{
+    margin-right: 12rem;
+}
+.Input{
+    height: 5rem;
+    display: block;
+    margin-top: 2rem;
+}
+.addfile{
+    background-color: rgb(240, 241, 243);
+    border: 1px solid rgb(212, 210, 210);
+    width:20rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+}
+.addtext{
+    width:20rem;
+    height: 2rem;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 0.5rem;
+}
+.buton{
+    background-color: rgb(11, 247, 85);
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    margin-bottom: 1rem;
+}
+.buton:hover{
+    cursor: pointer;
+    background-color: rgb(5, 147, 19);
+}

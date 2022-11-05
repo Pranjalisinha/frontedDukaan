@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  margin: 1rem 30rem;
+  /* border: 2px solid green; */
+  width: 30rem;
+  border-radius: 10%;
+  -webkit-box-shadow: 0px 10px 21px 5px rgba(194,184,194,1);
+  -moz-box-shadow: 0px 10px 21px 5px rgba(194,184,194,1);
+  box-shadow: 0px 10px 21px 5px rgba(194,184,194,1);
+}
+.Heading{
+  text-align: center;
+  color: white;
+  height: 5rem;
+  background-color: rgb(5, 149, 17);
+}
+.Buttons{
+  width: 20rem;
+  margin: 2rem 5rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: -1px 1px 29px 5px rgba(219,215,219,1);
+-moz-box-shadow: -1px 1px 29px 5px rgba(219,215,219,1);
+box-shadow: -1px 1px 29px 5px rgba(219,215,219,1);
+}
+.btn{
+  background-color: rgb(134, 249, 209);
+  border: none;
+  border-radius: 1rem;
+  width: 18rem;
+  height: 3rem;
+  margin: 1rem 0rem 0rem 0rem;
+  justify-content: space-between;
+  font-size: 25px;
+}
