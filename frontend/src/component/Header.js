@@ -24,12 +24,16 @@ const Header = () =>{
 
     const handleSave =(e) =>{
         e.preventDefault()
+        if(Image === "" || business === "" || tagLine=== "" || email === "" || phone === ""){
+            alert("Enter Data")
+        } else {
         localStorage.setItem("Image", Image)
         localStorage.setItem("business", business)
         localStorage.setItem("tagLine", tagLine)
         localStorage.setItem("email", email)
         localStorage.setItem("phone", phone)
         Navigate("/Head")
+        }
     }
 
     console.log(Image)
